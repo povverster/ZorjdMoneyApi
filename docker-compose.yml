@@ -1,0 +1,8 @@
+# this file should be placed one level above the project directory
+version: "3.9"
+services:
+  backend:
+    build: ./ZorjdMoneyApi/
+    restart: always
+    ports:
+      - "5000:5000"
